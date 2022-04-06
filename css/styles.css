@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+  /* padding: 1.5rem auto; */
+}
+
+#the-top {
+  background-color: #f4a950;
+  color: #161b21;
+}
+#aboutMe {
+  background-color: #161b21;
+  color: #f4a950;
+}
+#myPortfolio {
+  background-color: #f4a950;
+  color: #161b21;
+}
+#myCV {
+  background-color: #161b21;
+  color: #f4a950;
+}
+#myBlog {
+  background-color: #f4a950;
+  color: #161b21;
+}
+#footer {
+  background-color: #161b21;
+  color: #f4a950;
+}
+.navbar {
+  background-color: #161b21;
+}
+.navbar-itm {
+  color: #f4a950;
+}
+.foot-icon {
+  color: #f4a950;
+}
+.about-me-para {
+  text-align: left;
+}
+
+.meImg {
+  border-radius: 10%;
+  /* width: 400px; */
+  width: 60%;
+}
+
+@media (max-width: 992px) {
+  .meImg {
+    border-radius: 10%;
+    width: 50%;
+  }
+}
+
+.sect-container {
+  padding: 10% 15%;
+}
+
+.port-caption {
+  background-color: #8f8f8f;
+  background-color: #f4a950;
+  opacity: .9;
+}
+
+.my-dark-button {
+  background-color: #161b21;
+  border-color: #161b21;
+  color: #f4a950;
+  margin: 2rem 2rem;
+}
+.my-dark-button:hover {
+  background-color: #f4a950;
+  border-color: #161b21;
+  color: #161b21;
+}
+
+.my-light-button {
+  background-color: #f4a950;
+  border-color: #f4a950;
+  color: #161b21;
+  margin: 2rem 2rem;
+}
+.my-light-button:hover {
+  background-color: #161b21;
+  border-color: #f4a950;
+  color: #f4a950;
+}
+
+.cv-highlights {
+  text-align: left;
+}
+
+.port-img {
+  width: auto;
+  height: auto;
+  /* max-width: 100%; */
+  /* max-height: 90%; */
+  max-height: 600px;
+  max-width: 550px;
+}
+
+.below-title {
+  padding-top: 3rem;
+}
