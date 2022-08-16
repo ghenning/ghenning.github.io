@@ -44,6 +44,10 @@ h1, h2 {
   text-align: left;
 }
 
+.abtme-heading {
+  padding-bottom: 3rem;
+}
+
 .meImg {
   border-radius: 10%;
   /* width: 400px; */
